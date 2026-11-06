@@ -1,0 +1,95 @@
+@import url('../global/global.css');
+
+.signin {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 16px;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    cursor: pointer;
+    background-color: var(--cor-branco);
+    box-shadow: 0 0 10px var(--cor-cinza);
+    transition: var(--suave);
+}
+
+.signin:hover {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background-color: var(--cor-primario);
+    color: var(--cor-branco);
+    box-shadow: 0 8px 25px var(--cor-primario-brilho);
+    transform: translateY(-3px) scale(1.03);
+}
+
+.questions-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+    font-size: 14px;
+
+    width: 100%;
+}
+
+.forgot-text {
+    color: var(--cor-cinza);
+    position: relative;
+    transition: var(--suave);
+}
+
+.forgot-text:hover {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-branco);
+}
+
+.forgot-text::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    left: 0;
+    bottom: -2px;
+    color: var(--cor-primario);
+    background: currentColor;
+    position: absolute;
+    transition: width var(--suave);
+}
+
+.forgot-text:hover:after {
+    width: 100%;
+}
+
+.login-text {
+    display: flexbox;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+    transition: var(--suave);
+}
+
+.login-text:hover {
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login-text::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    left: 0;
+    bottom: -2px;
+    color: var(--cor-primario);
+    background: currentColor;
+    position: absolute;
+    transition: width var(--suave);
+}
+
+.login-text:hover::after {
+    width: 100%;
+}
