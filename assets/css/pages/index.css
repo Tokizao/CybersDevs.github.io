@@ -64,7 +64,7 @@
 }
 
 .login-text {
-    display: flexbox;
+    display: flex;
     position: relative;
     font-size: 14px;
     font-weight: 400;
