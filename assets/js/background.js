@@ -10,7 +10,7 @@ if (background) {
 
     let currentBanner = 0;
 
-    const bannerInterval = 12000;
+    const bannerInterval = 15000;
     const transitionDuration = 250;
 
     setInterval(() => {
